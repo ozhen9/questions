@@ -22,7 +22,7 @@ struct questionC: View {
                         .font (.title)
                         .fontWeight (.bold)
                     
-                    Text ("Choose an answer.")
+                    Text ("Who drives for Red Bull? (2024)")
                         
                 }
                 .padding()
@@ -30,32 +30,32 @@ struct questionC: View {
                 .padding ()
                 
                 VStack (spacing: 40){
-                    Button("Alpha") {
-                        answer = "Wow you chose alpha."
+                    Button("Sainz") {
+                        answer = "Incorrect."
                     }
                     .padding()
                     .buttonBorderShape(.roundedRectangle(radius: 10))
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
                     
-                    Button("Beta") {
-                        answer = "Wow you chose beta."
+                    Button("Verstappen") {
+                        answer = "Correct."
                     }
                     .padding()
                     .buttonBorderShape(.roundedRectangle(radius: 10))
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
                     
-                    Button("Gamma") {
-                        answer = "Wow you chose gamma."
+                    Button("Norris") {
+                        answer = "Incorrect."
                     }
                     .padding()
                     .buttonBorderShape(.roundedRectangle(radius: 10))
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
                     
-                    Button("Delta") {
-                        answer = "Wow you chose delta."
+                    Button("Hulkenbenberg") {
+                        answer = "Incorrect."
                     }
                     .padding()
                     .buttonBorderShape(.roundedRectangle(radius: 10))

@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text ("A very useless quiz.")
+                Text ("2024 F1 Grid 🏎️ Quiz")
                     .font(.title)
                     .fontWeight (.bold)
                 
